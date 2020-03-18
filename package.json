@@ -1,0 +1,19 @@
+{
+  "name": "gsap_exercise",
+  "version": "1.0.0",
+  "description": "gsap stuff",
+  "main": "beachball.js",
+  "scripts": {
+    "start": "parcel *.html --open",
+    "build": "parcel build *.html --public-url ./"
+  },
+  "author": "Lasma",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "gsap": "^3.2.4"
+  }
+}
